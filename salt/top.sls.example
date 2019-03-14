@@ -1,0 +1,15 @@
+base:
+  '*':
+    - airflow.airflowbase
+  'roles:mysql'
+    - airflow.mysql
+  'roles:rabbitmq'
+     - airflow.rabbitmq
+  'roles:web'
+     - airflow.webserver
+  'roles:flower'
+     - airflow.flower
+  'roles:scheduler'
+     - airflow.scheduler
+  'roles:worker'
+     - airflow.worker
